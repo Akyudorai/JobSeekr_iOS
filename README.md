@@ -26,10 +26,13 @@ As more ideas come to mind, they will be noted here.
 
 ## Areas of Interest
 Database Systems
+
 Networking
+
 Customer Analytics
 
 Encryptions
+
 Transaction Systems
 
 
