@@ -1,7 +1,7 @@
 # Queue-Reservation-System
 
 ## Purpose of the App
-The designated app for ths project will be a queue reservation system that allows users to connect from an application on their phone and reserve a position in a database.  The intention is to develop an application that will aid businesses by offering a reservation system for their business, so as to avoid congestion within the establishment.  The concept will be based off the Skip the Dishes application from my time working in the restaurant industry.
+The designated app for ths project will be a queue reservation system that allows users to connect from an app on their phone and reserve a position in a database.  The intention is to develop an application that will aid businesses by offering a reservation system for their business, so as to avoid congestion within the establishment.  The concept will be based off the Skip the Dishes application from my time working in the restaurant industry.
 
 The app will be divided into two separate applications: a customer-use app and a business-use app.
 
