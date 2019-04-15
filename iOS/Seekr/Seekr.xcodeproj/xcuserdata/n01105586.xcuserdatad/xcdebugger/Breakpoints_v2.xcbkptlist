@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Seekr/ViewController.swift"
+            timestampString = "577061479.81656"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "Dispatch"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Seekr.Dispatch.deinit"
+                  moduleName = "Seekr"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/n01105586/Desktop/Seekr/Seekr/ViewController.swift"
+                  timestampString = "577058169.359606"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Seekr.Dispatch.__deallocating_deinit"
+                  moduleName = "Seekr"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/n01105586/Desktop/Seekr/Seekr/ViewController.swift"
+                  timestampString = "577058169.362112"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Seekr.Dispatch.__allocating_init() -&gt; Seekr.Dispatch"
+                  moduleName = "Seekr"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/n01105586/Desktop/Seekr/Seekr/ViewController.swift"
+                  timestampString = "577058169.363691"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Seekr.Dispatch.init() -&gt; Seekr.Dispatch"
+                  moduleName = "Seekr"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/n01105586/Desktop/Seekr/Seekr/ViewController.swift"
+                  timestampString = "577058169.3651429"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "4">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
