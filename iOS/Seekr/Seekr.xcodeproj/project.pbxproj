@@ -17,6 +17,9 @@
 		4F531983225FBEB70031A811 /* VC_Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F531982225FBEB70031A811 /* VC_Login.swift */; };
 		4F531987225FC6250031A811 /* VC_Create_Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F531986225FC6250031A811 /* VC_Create_Account.swift */; };
 		4F53198B225FDF190031A811 /* UFX_Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F53198A225FDF190031A811 /* UFX_Database.swift */; };
+		4FCC0B3D22691F3700C44C02 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCC0B3C22691F3700C44C02 /* User.swift */; };
+		4FCC0B3F22692C6600C44C02 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCC0B3E22692C6600C44C02 /* Profile.swift */; };
+		4FCC0B4122692C7400C44C02 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCC0B4022692C7400C44C02 /* Settings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,9 @@
 		4F531982225FBEB70031A811 /* VC_Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC_Login.swift; sourceTree = "<group>"; };
 		4F531986225FC6250031A811 /* VC_Create_Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC_Create_Account.swift; sourceTree = "<group>"; };
 		4F53198A225FDF190031A811 /* UFX_Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UFX_Database.swift; sourceTree = "<group>"; };
+		4FCC0B3C22691F3700C44C02 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		4FCC0B3E22692C6600C44C02 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		4FCC0B4022692C7400C44C02 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,8 @@
 			children = (
 				4F531954225FBD000031A811 /* AppDelegate.swift */,
 				4F531956225FBD000031A811 /* ViewController.swift */,
+				4FCC0B3E22692C6600C44C02 /* Profile.swift */,
+				4FCC0B4022692C7400C44C02 /* Settings.swift */,
 				4F531982225FBEB70031A811 /* VC_Login.swift */,
 				4F531986225FC6250031A811 /* VC_Create_Account.swift */,
 				4F531958225FBD000031A811 /* Main.storyboard */,
@@ -112,6 +120,7 @@
 				4F53195D225FBD010031A811 /* LaunchScreen.storyboard */,
 				4F531960225FBD010031A811 /* Info.plist */,
 				4F53198A225FDF190031A811 /* UFX_Database.swift */,
+				4FCC0B3C22691F3700C44C02 /* User.swift */,
 			);
 			path = Seekr;
 			sourceTree = "<group>";
@@ -267,6 +276,9 @@
 			files = (
 				4F531957225FBD000031A811 /* ViewController.swift in Sources */,
 				4F531983225FBEB70031A811 /* VC_Login.swift in Sources */,
+				4FCC0B4122692C7400C44C02 /* Settings.swift in Sources */,
+				4FCC0B3D22691F3700C44C02 /* User.swift in Sources */,
+				4FCC0B3F22692C6600C44C02 /* Profile.swift in Sources */,
 				4F531987225FC6250031A811 /* VC_Create_Account.swift in Sources */,
 				4F53198B225FDF190031A811 /* UFX_Database.swift in Sources */,
 				4F531955225FBD000031A811 /* AppDelegate.swift in Sources */,

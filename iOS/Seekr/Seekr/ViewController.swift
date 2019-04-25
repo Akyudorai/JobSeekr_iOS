@@ -32,29 +32,25 @@ final class Dispatch {
 }
 
 class ViewController: UIViewController {
-
+    
     @IBOutlet weak var image: UIImageView!
     @IBOutlet weak var jobTitle: UILabel!
     @IBOutlet weak var companyName: UILabel!
     @IBOutlet weak var jobBio: UILabel!
     
-    var index = 0;
-    let imgLinks = [
-    "ubisoft.jpg",
-    "naughtydog.jpg",
-    "crytek.png",
-    "gameloft.jpg",
-    "riotgames.jpg",
-    "squareenix.jpg",
-    "tornbanner.jpg"
-    ]
+    // index(0) is used as blank placeholder
+    var index = 1;
+    
+    
     
     @IBOutlet weak var output: UILabel!
     
     @IBAction func navRightBtnDown(_ sender: Any) {
         
-        if (index < imgLinks.count - 1) { index += 1; }
-        else { index = 0; }
+        if (index < 7) { index += 1; }
+        else { index = 1; }
+        
+        print(String(index));
         
         Dispatch.run_on_main {
             self.setPostData();
@@ -62,13 +58,47 @@ class ViewController: UIViewController {
     }
     @IBAction func navLeftBtnDown(_ sender: Any) {
         
-        if (index > 0) { index -= 1; }
-        else { index = imgLinks.count - 1; }
+        if (index > 1) { index -= 1; }
+        else { index = 7; }
         
         Dispatch.run_on_main {
             self.setPostData();
         }
     }
+    
+    @IBAction func ApplyButtonDown(_ sender: Any) {
+        print(String("Applied"));
+        // Send email to job owner
+        
+        var targetEmail = String("n01105586@humbermail.ca");
+        let subject = String("APPLICANT - " + (jobTitle.text)!);
+        let message = String(
+            "\nApplicant: " + User.reference.name +
+                "\nBio: " + User.reference.bio +
+                "\nPhone Number: " + User.reference.phoneNumber +
+                "\nEmail Address:  " + User.reference.emailAddress +
+            "\nDoes this net me a passing grade?" +
+            "\n\n\n Thanks for choosing Job Seekr!" 
+        );
+        
+        UFX_Database.GetPostInfo(index: String(self.index), condition:"Email")
+        {
+            result in
+            
+            if (result != "") { targetEmail = result; }
+                
+            else { print(String("Send Failed: No Target Email")); return; }
+        }
+        
+        UFX_Database.SendEmail(targetEmail: targetEmail, subject: subject, message: message)
+        {
+            result in
+            
+            print(result);
+        }
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -146,8 +176,6 @@ class ViewController: UIViewController {
             
         }
     }
-
-
 }
 
 
